@@ -5,6 +5,7 @@
 --! @brief contains entity and architecture for spi4prhs
 --! @author René Kirschen and Marcel Eckert
 --! @email eckert@hsu-hh.de
+--! @copyright 2016 René Kirschen and Marcel Eckert, License GPLv2<<<<<<<<<<<<
 --------------------------------------------------------------------------------
 
 library IEEE;
@@ -22,17 +23,17 @@ generic (
 );
 port(
 		iSysClk       : in std_logic;                      --! system clock
-        iSPIclkEn     : in std_logic;					   --! spi clock enable signal (related to iSysClk)
-        iReset        : in std_logic;                      --! reset signal
+        iSPIclkEn     : in std_logic;					   			 --! spi clock enable signal (related to iSysClk)
+        iReset        : in std_logic;                  --! reset signal
 
-        odMOSI        : out std_logic;                     --! master out slave in
-        idMISO        : in  std_logic;                      --! master in slave out
-        oSClk         : out std_logic;                     --! spi clock to slaves
+        odMOSI        : out std_logic;                 --! master out slave in
+        idMISO        : in  std_logic;                 --! master in slave out
+        oSClk         : out std_logic;                 --! spi clock to slaves
 
-        icCPOL		  : in  std_logic;					   --! clock polarity
-        icCPHA		  : in  std_logic;					   --! clock phase
+        icCPOL		  : in  std_logic;					   			 --! clock polarity
+        icCPHA		  : in  std_logic;					   			 --! clock phase
 
-        odByteRead    : out std_logic_vector (Gen_DataLength - 1 downto 0); --! read data
+        odByteRead    : out std_logic_vector (Gen_DataLength - 1 downto 0);  --! read data
         idByteWrite   : in 	std_logic_vector (Gen_DataLength - 1 downto 0);  --! data to send
 
         icStart       : in 	std_logic;                      --! start a spi transfers - handshake signal
