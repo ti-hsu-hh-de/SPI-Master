@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="960" width="960" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<rect height="360" id="component" rx="5.2" ry="2.4" style="fill: white; stroke: black; stroke-opacity: 1.0; stroke-width: 2" width="360" x="300" y="300" />
+	<text id="name" style="fill: black; font: sans; font-size: 30; text-anchor: middle" x="480" y="493">spiMaster</text>
+	<line id="port0" style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="200" x2="300" y1="330" y2="330" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="285" x2="300" y1="320" y2="330" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="285" x2="300" y1="340" y2="330" />
+	<text id="text_0" style="fill: black; font: sans; font-size: 20; text-anchor: end" x="190" y="332">iSysClk</text>
+	<line id="port1" style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="200" x2="300" y1="390" y2="390" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="285" x2="300" y1="380" y2="390" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="285" x2="300" y1="400" y2="390" />
+	<text id="text_1" style="fill: black; font: sans; font-size: 20; text-anchor: end" x="190" y="392">iSPIclkEn</text>
+	<line id="port2" style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="200" x2="300" y1="450" y2="450" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="285" x2="300" y1="440" y2="450" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="285" x2="300" y1="460" y2="450" />
+	<text id="text_2" style="fill: black; font: sans; font-size: 20; text-anchor: end" x="190" y="452">iReset</text>
+	<line id="port3" style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="200" x2="300" y1="510" y2="510" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="215" x2="200" y1="500" y2="510" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="215" x2="200" y1="520" y2="510" />
+	<text id="text_3" style="fill: black; font: sans; font-size: 20; text-anchor: end" x="190" y="512">odMOSI</text>
+	<line id="port4" style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="200" x2="300" y1="570" y2="570" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="285" x2="300" y1="560" y2="570" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="285" x2="300" y1="580" y2="570" />
+	<text id="text_4" style="fill: black; font: sans; font-size: 20; text-anchor: end" x="190" y="572">idMISO</text>
+	<line id="port5" style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="200" x2="300" y1="630" y2="630" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="215" x2="200" y1="620" y2="630" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="215" x2="200" y1="640" y2="630" />
+	<text id="text_5" style="fill: black; font: sans; font-size: 20; text-anchor: end" x="190" y="632">oSClk</text>
+	<line id="port6" style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="660" x2="760" y1="330" y2="330" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="675" x2="660" y1="320" y2="330" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="675" x2="660" y1="340" y2="330" />
+	<text id="text_6" style="fill: black; font: sans; font-size: 20; text-anchor: start" x="770" y="332">icCPOL</text>
+	<line id="port7" style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="660" x2="760" y1="390" y2="390" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="675" x2="660" y1="380" y2="390" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="675" x2="660" y1="400" y2="390" />
+	<text id="text_7" style="fill: black; font: sans; font-size: 20; text-anchor: start" x="770" y="392">icCPHA</text>
+	<line id="port8" style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="660" x2="760" y1="450" y2="450" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="745" x2="760" y1="440" y2="450" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="745" x2="760" y1="460" y2="450" />
+	<text id="text_8" style="fill: black; font: sans; font-size: 20; text-anchor: start" x="770" y="452">odByteRead</text>
+	<line id="port9" style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="660" x2="760" y1="510" y2="510" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="675" x2="660" y1="500" y2="510" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="675" x2="660" y1="520" y2="510" />
+	<text id="text_9" style="fill: black; font: sans; font-size: 20; text-anchor: start" x="770" y="512">idByteWrite</text>
+	<line id="port10" style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="660" x2="760" y1="570" y2="570" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="675" x2="660" y1="560" y2="570" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="675" x2="660" y1="580" y2="570" />
+	<text id="text_10" style="fill: black; font: sans; font-size: 20; text-anchor: start" x="770" y="572">icStart</text>
+	<line id="port11" style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="660" x2="760" y1="630" y2="630" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="745" x2="760" y1="620" y2="630" />
+	<line style="fill: black; stroke: black; stroke-opacity: 1.0; stroke-width: 2" x1="745" x2="760" y1="640" y2="630" />
+	<text id="text_11" style="fill: black; font: sans; font-size: 20; text-anchor: start" x="770" y="632">ocReadyToSend</text>
+	<!-- 
+	Generated using the Perl SVG Module V2.64
+	by Ronan Oger
+	Info: http://www.roitsystems.com/
+ -->
+</svg>
