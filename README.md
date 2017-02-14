@@ -8,7 +8,7 @@ has to make sure the chip select is set according to the slaves requirements.
 ## Usage
 The image shows all the available signals.
 
-![](doc/Images/spiMaster.svg)
+![](https://github.com/ti-hsu-hh-de/SPI-Master/blob/master/doc/Images/spiMaster.svg)
 
 | Signal Name   |Length |  Direction | Description  |
 | ------------- |:---:|:---------:| ------------:|
